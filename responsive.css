@@ -1,0 +1,78 @@
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 812px) {
+    .UL{
+        margin: 0;
+    }
+    .hero-section{
+        padding-left: 10px;
+        padding-top: 20px;
+    }
+    .hero-section h1{
+        font-size: 60px;
+    }
+    .hero-section p{
+        width: 100%;
+    }
+    .hero-image{
+        display: none;
+    }
+    .why-section{
+        display: block;
+    }
+    .why-service{
+        display: block;
+    }
+    .testimonial-description{
+        display: block;
+        width: fit-content;
+        margin: 0 auto;
+    }
+    .qna-section{
+        display: block;
+    }
+    .image img{
+        width: 100%;
+    }
+    .footer-section{
+        display: block;
+    }
+    .logo{
+        margin-right: 10px;
+        margin-bottom: 50px;
+    }
+    .footer-bottom{
+        display: block;
+    }
+    .social{
+        margin: 0 auto;
+        width: fit-content;
+    }
+
+}
+
+@media only screen and (max-width: 1024px){
+    .UL{
+        margin-left: 300px;
+    }
+    .hero-section{
+        padding-left: 20px;
+        padding-top: 100px;
+        padding-bottom: 230px;
+    }
+    .hero-section h1{
+        font-size: 50px;
+    }
+    .hero-section p{
+        font-size: 17px;
+    }
+    .hero-image{
+        position: absolute;
+        top: -50px;
+        left: 320px;
+    }
+    
+}
+
+
